@@ -26,6 +26,7 @@ class Alumno{
     public Alumno(String nombre, int edad){
         this.nombre = nombre;
         this.edad = edad;
+        System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
     }
 
     public void saludar(){
