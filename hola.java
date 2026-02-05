@@ -8,6 +8,7 @@ public class hola {
 class Persona{
     String nombre;
     int edad;
+    Double peso;
 
     public Persona(String nombre, int edad){
         this.nombre = nombre;
